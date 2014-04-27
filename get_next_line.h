@@ -6,7 +6,7 @@
 /*   By: abrault <abrault@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/04/27 14:48:32 by abrault           #+#    #+#             */
-/*   Updated: 2014/04/27 14:49:07 by abrault          ###   ########.fr       */
+/*   Updated: 2014/04/27 15:08:23 by abrault          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,14 +14,14 @@
 # define GET_NEXT_LINE_H
 # define BUFF_SIZE 4096
 
-#include <fcntl.h>
-#include <unistd.h>
-#include <string.h>
-#include <stdlib.h>
-#include <sys/uio.h>
-#include <sys/wait.h>
-#include <sys/types.h>
-#include <libft.h>
+# include <fcntl.h>
+# include <unistd.h>
+# include <string.h>
+# include <stdlib.h>
+# include <sys/uio.h>
+# include <sys/wait.h>
+# include <sys/types.h>
+# include <libft.h>
 
 typedef struct s_read	t_read;
 
